@@ -12,7 +12,7 @@ class WeatherApp(QWidget):
         self.setGeometry(200, 200, 420, 550)
 
         # Your API Key
-        self.api_key = "3af03855fbb9d918eaaa0338afbe9141"
+        self.api_key = "YOUR API KEY"
 
         # Background Gradient
         palette = QPalette()
@@ -110,3 +110,4 @@ if __name__ == "__main__":
     window = WeatherApp()
     window.show()
     sys.exit(app.exec_())
+
